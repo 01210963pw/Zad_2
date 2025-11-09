@@ -55,5 +55,93 @@ Uwaga: należy wprowadzić własne dane osobowe i własny adres e-mail
 W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:  
 ![ps2](https://github.com/user-attachments/assets/9188f49e-1f4c-4f73-9576-788d8bbbaae6)
 
-##Git – tworzenie pustego archiwum lokalnego.
+##Git – tworzenie pustego archiwum lokalnego.  
+
+Należy w konsoli wywołać następującą sekwencję komend (zakładając, że repozytorium będzie
+nosiło nazwę repo1):  
+
+1. $mkdir repo1
+2. $cd repo1
+3. $git init
+4. $git status
+
+Pierwsza komenda tworzy katalog o zadanej nazwie.  
+
+Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu  
+
+Trzecia komenda inicjuje puste repozytorium  
+
+Czwarta komenda wyświetla informacje o stanie repozytorium  
+
+
+![ps3](https://github.com/user-attachments/assets/86d657f4-2ecb-4e1e-8205-150cca0a396c)  
+
+Jak widać na powyższym rysunku po stworzeniu pustego repozytorium pracujemy w głównej gałęzi
+**master** i brak jest zarejestrowanych jakichkolwiek „migawek” (commits)  
+
+Dodawanie pliku/ów do indeksu:  
+
+* $git add file - dodanie pliku do indeksu
+* $git rm - -cached file - usunięcie pliku z indeksu
+
+![ps4](https://github.com/user-attachments/assets/eeb22f8b-7c63-496e-bba0-48d606d269dc)  
+Powyższy rysunek prezentuje sekwencję komend:  
+1. $touch.exe nowy.md – utworzenie pustego pliku tekstowego
+2. $git add nowy.md – dodanie nowo stworzonego pliku do indeksu
+3. $git status – wyświetlenie statu lokalnego repozytorium
+
+Widać (zielony kolor), że git śledzi wprowadzone zmiany
+
+
+
+Git - zapis pliku do repozytorium lokalnego:
+
+* $git commit -m "komunikat" – w komunikacie podaje się krotki opis zmian wprowadzonych
+do repozytorium
+
+![ps5](https://github.com/user-attachments/assets/05642d3d-0fd9-4368-881b-2528701c6ec2)  
+Polecenie $git log wyświetla listę zapisanych „migawek”. Każda migawka identyfikowana jest
+sekwencją liczb szesnastkowych (żółte cyfry) – komentarzem jaki podajemy podczas wywoływania
+polecenia $git commit.  
+
+**Git – dodanie kolejnych plików, modyfikacja i stworzenie kolejnych „migawek”**  
+
+Używając tekstowego edytora nano (można użyć własnego ulubionego edytora) – zmodyfikowano
+zawartość pliku nowy.md – co natychmiast zauważył system kontroli wersji (modified nowy.md).
+Następnie stworzono kolejny pusty plik (następny.md) co również system zasygnalizował jako:
+(Untracked files – następny.md). Teraz zostaną wykonane dwa niezależne commity i zostanie
+wyświetlony kolejny log stanu repozytorium.  
+
+Jak widać na kolejnym rysunku w repozytorium zostały umieszczone trzy „migawki” stanu
+repozytorium wszystkie umieszczone w gałęzi głównej „master”.  
+
+![ps6](https://github.com/user-attachments/assets/798d0386-172d-42d5-bc44-7d577d40c449)
+
+![ps7](https://github.com/user-attachments/assets/7c54b4d8-c273-4bf2-af99-4a13df45bbb0)
+
+
+**Git – praca z rozgałęzieniami**  
+
+
+Bardzo często zachodzi taka sytuacja, że nie chcemy wprowadzać zmian w głównej gałęzi a tylko
+wykonać jakieś prace testowe i później zdecydować czy dołączyć je do głównej gałęzi lub nie. Do
+tego służą rozgałęzienia, i operacja ich łączenia.  
+
+* $git branch name – tworzenie nowego rozgałęzienia
+* $git checkout name - przełączenie się do innej gałęzi
+* $git branch -D name - usunięcie rozgałęzienia (trzeba być od niego odłączonym)
+* $ git merge nazwa_gałęzi – złączenie gałęzi „nazwa_gałęzi” z gałęzią do której jesteśmy
+podłączeni
+
+![ps8](https://github.com/user-attachments/assets/d0c6b6cb-b895-45e0-b465-d66d5c0958d5)
+
+Każde lokalne repozytorium możemy umieścić na dedykowanym serwerze protokołu git (możemy
+także spakować katalog z repozytorium i taką kopię przesłać zainteresowanemu np. E-mailem).
+Jeżeli chcemy realizować wspólne projekty - nad którymi pracuje wiele osób - to niezbędnym jest
+wykorzystanie serwera.  
+
+Mamy do dyspozycji np.  
+
+
+
 
