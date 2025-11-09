@@ -25,4 +25,12 @@ poszczególnymi elementami repozytorium lub pomiędzy maszyną lokalną a serwer
 Git rozróżnia trzy typy plików w repozytorium lokalnym: nadzorowane, pomijane i
 nienadzorowane. Z punku widzenia systemu plików repozytorium to zwykły katalog w którym
 zaicjalizowany został specjalny podkatalog o nazwie .git, w którym przetrzymywane są wszystkie
-informacje o repozytorium.
+informacje o repozytorium.  
+
+Użytkownik pracuje w katalogu roboczym, gdzie modyfikuje swoje pliki. Gdy uzna, że postęp prac
+wymaga zapisania zmian przenosi je do staging area (komenda add). Gdy suma zmian stanowi
+jakąś spójną całość (np. dodanie nowego rozdziału pracy, dodanie nowej funkcjonalności itd.)
+tworzy się nową „migawkę” zapisywaną w lokalnym repozytorium (komenda commit). Co jakiś
+czas można przenieść lokalne zmiany w repozytorium na serwer (komenda push).  
+
+
