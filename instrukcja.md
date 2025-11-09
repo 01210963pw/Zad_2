@@ -33,4 +33,11 @@ jakąś spójną całość (np. dodanie nowego rozdziału pracy, dodanie nowej f
 tworzy się nową „migawkę” zapisywaną w lokalnym repozytorium (komenda commit). Co jakiś
 czas można przenieść lokalne zmiany w repozytorium na serwer (komenda push).  
 
+Uwaga: Do pracy z systemem git należy zainstalować oprogramowanie ze strony:  
+
+[https://git-scm.com/downloads](https://git-scm.com/downloads)  
+
+Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniższego rysunku  
+
+Jest to aplikacja **Git Bash** w której wydajemy polecenia z linii komend.
 
