@@ -15,4 +15,5 @@ między kolejnymi rewizjami lecz kompletne obrazy (snapshots)
 * tryb pracy off-line - każdy pracuje na własnej kopii repozytorium, a następnie
 zmiany mogą być wymieniane między lokalnymi repozytoriami jak również
 serwerem.
+## Idea pracy:
 
