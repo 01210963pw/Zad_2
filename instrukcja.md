@@ -16,4 +16,9 @@ między kolejnymi rewizjami lecz kompletne obrazy (snapshots)
 zmiany mogą być wymieniane między lokalnymi repozytoriami jak również
 serwerem.
 ## Idea pracy:
+Na powyższym rysunku symbolicznie przedstawiono zasadę pracy z gitem. Większy okrąg
+symbolizuje repozytorium lokalne (po lewej) w którym pracuje użytkownik. Mniejszy okrąg (po
+prawej) to kopia repozytorium na wybranym serwerze (np. github.com lub gitlab.com). Czerwone
+strzałki to komendy git’a, które powodują przenoszenie plików i/lub katalogów pomiędzy
+poszczególnymi elementami repozytorium lub pomiędzy maszyną lokalną a serwerem.  
 
