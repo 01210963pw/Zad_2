@@ -50,4 +50,10 @@ poleceń:
 
 **$git config --global user.email "wspanialy@pw.edu.pl"** 
 
+W ten sposób informujemy system git kto będzie autorem zmian wprowadzanych do repozytorium
+Uwaga: należy wprowadzić własne dane osobowe i własny adres e-mail  
+W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:  
+![ps2](https://github.com/user-attachments/assets/9188f49e-1f4c-4f73-9576-788d8bbbaae6)
+
+
 
