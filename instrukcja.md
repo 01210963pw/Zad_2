@@ -41,3 +41,7 @@ Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniżs
 
 Jest to aplikacja **Git Bash** w której wydajemy polecenia z linii komend.
 
+![ps1](https://github.com/user-attachments/assets/0ad0ea1e-d724-4adf-aa5a-7c71bdbd1367)  
+
+
+
