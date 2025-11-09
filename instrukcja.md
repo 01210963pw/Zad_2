@@ -46,5 +46,8 @@ Jest to aplikacja **Git Bash** w której wydajemy polecenia z linii komend.
 Pierwszym krokiem po instalacji git’a i uruchomieniu aplikacji Git Bash jest wydanie dwóch
 poleceń:  
 
+**$git config --global user.name "Student Wspaniały"**  
+
+**$git config --global user.email "wspanialy@pw.edu.pl"**
 
 
