@@ -142,6 +142,64 @@ wykorzystanie serwera.
 
 Mamy do dyspozycji np.  
 
+* GitHub - [https://github.com](https://github.com)
+* GitLab - [https://gitlab.com](https://gitlab.com)
+* GitLab Wydziałowy - [https://gitlab-stud.elka.pw.edu.pl](https://gitlab-stud.elka.pw.edu.pl) (do niego możecie nie mieć Państwo
+nadanych praw dostępu)
+
+Sugeruje się wykorzystanie serwera gitlab z uwagi na łatwość obsługi.  
+
+W tym celu należy wykonać następujące kroki.  
+
+1. Zarejestrować się w systemie
+2. Stworzyć nowy projekt w którym będziemy chcieli umieścić nasze lokalne repozytorium
+3. W lokalnym repozytorium dodać informacje na jaki serwer mają być wysyłane dane
+
+realizuje to komenda: 
+
+**$git remote add origin** [git@g itlab.com](git@g itlab.com) :**user/projekt1.**
+(jako user nazwa Państwa konta na serwerze)  
+
+I teraz można „wypchnąć” lokalne repozytorium na serwer komendą:  
+
+**$git push origin master**  
+
+gdy istnieją dodatkowe rozgałęzienia w repozytorium, to każde musi być „wypchnięte” oddzielną
+komendą  
+
+**$git push origin nazwaGalezi**  
+
+Gdy chcemy pobrać repozytorium z serwera na jakąś inną lokalną maszynę to wtedy należy
+wykonać klonowanie zdalnego repozytorium komendą:  
+
+**$git clone git@gitlab.com:user/projekt1.git**  
+
+
+
+Na potrzeby tej instrukcji stworzono projekt o nazwie testowy na koncie gitlab autora instrukcji  
+
+
+![ps9](https://github.com/user-attachments/assets/ab888145-d04b-44dc-9eb4-d958b2e4f462)  
+Po wciśnięciu przycisku **Create project** zostanie wygenerowany ekran z listą instrukcji które
+należy wykonać w zależności od kontekstu w jakim chcemy użyć nasz projekt.  
+
+
+
+
+
+
+
+
+![ps10](https://github.com/user-attachments/assets/ec9fe9ba-5dea-4830-b2fa-50b8ae68bf9e)  
+Ostatni rysunek pokazuje przesłanie lokalnego repozytorium na serwer gitlab.com  
+
+W tym przypadku nie musiano podawać loginu i hasła ponieważ pomiędzy maszyną lokalną a
+serwerem są uzgodnione pary kluczy: prywatny i publiczny  
+
+![ps11](https://github.com/user-attachments/assets/2bee2936-3b2b-408a-92af-47f1985248d7)
+
+
+ 
 
 
 
