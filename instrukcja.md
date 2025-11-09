@@ -43,5 +43,8 @@ Jest to aplikacja **Git Bash** w której wydajemy polecenia z linii komend.
 
 ![ps1](https://github.com/user-attachments/assets/0ad0ea1e-d724-4adf-aa5a-7c71bdbd1367)  
 
+Pierwszym krokiem po instalacji git’a i uruchomieniu aplikacji Git Bash jest wydanie dwóch
+poleceń:  
+
 
 
