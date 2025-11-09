@@ -22,3 +22,7 @@ prawej) to kopia repozytorium na wybranym serwerze (np. github.com lub gitlab.co
 strzałki to komendy git’a, które powodują przenoszenie plików i/lub katalogów pomiędzy
 poszczególnymi elementami repozytorium lub pomiędzy maszyną lokalną a serwerem.  
 
+Git rozróżnia trzy typy plików w repozytorium lokalnym: nadzorowane, pomijane i
+nienadzorowane. Z punku widzenia systemu plików repozytorium to zwykły katalog w którym
+zaicjalizowany został specjalny podkatalog o nazwie .git, w którym przetrzymywane są wszystkie
+informacje o repozytorium.
